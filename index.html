@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashan Pro Lite</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/ChatGPT Image 20 февр. 2026 г., 20_32_10.png" type="image/x-icon">
+</head>
+
+<body>
+
+<header class="topbar">
+<h1>Ashan Pro 26.1 Lite</h1>
+</header>
+
+<!-- Индикатор -->
+<div class="engine-indicator">
+Поисковик: <span id="currentEngine">Google</span>
+</div>
+
+<!-- Выбор -->
+<div class="engine-select">
+
+<button onclick="setEngine('google')">Google</button>
+<button onclick="setEngine('yandex')">Yandex</button>
+<button onclick="setEngine('duck')">DuckDuckGo</button>
+
+</div>
+
+<div class="engine-select"></div>
+
+<div class="theme-btn">
+<button onclick="toggleTheme()">Тема</button>
+</div>
+
+<!-- Поиск -->
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Введите запрос...">
+<button onclick="search()">🔍</button>
+</div>
+
+<div class="wall-btns">
+<button onclick="setWall(1)">Обои 1</button>
+<button onclick="setWall(2)">Обои 2</button>
+</div>
+
+<div class="default-style">
+<button onclick="resetStyle()">Стиль по умолчанию</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

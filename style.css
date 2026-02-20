@@ -1,0 +1,165 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f2f2f2;
+height:100vh;
+}
+
+/* Верх */
+.topbar{
+height:50px;
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+border-bottom:1px solid #ccc;
+}
+
+/* Индикатор */
+.engine-indicator{
+text-align:center;
+margin-top:80px;
+font-size:16px;
+}
+
+/* Кнопки выбора */
+.engine-select{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:10px;
+}
+
+.engine-select button{
+padding:8px 12px;
+border:none;
+background:white;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+/* Поиск ниже */
+.search-box{
+width:90%;
+max-width:400px;
+margin:40px auto;
+display:flex;
+}
+
+.search-box input{
+flex:1;
+height:40px;
+border:none;
+padding:10px;
+outline:none;
+border-radius:10px 0 0 10px;
+background:#eaeaea;
+}
+
+.search-box button{
+width:50px;
+border:none;
+background:#ddd;
+border-radius:0 10px 10px 0;
+}
+
+/* Темная тема */
+.dark{
+background:#1e1e1e;
+color:white;
+}
+
+.dark .topbar{
+background:#2a2a2a;
+}
+
+.dark input{
+background:#333;
+color:white;
+}
+
+.dark .engine-select button{
+background:#333;
+color:white;
+}
+
+/* Кнопка темы */
+.theme-btn{
+display:flex;
+justify-content:center;
+margin-top:10px;
+}
+
+.theme-btn button{
+padding:8px 12px;
+border:none;
+background:white;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+/* Тёмная тема */
+.dark{
+background:#1e1e1e;
+color:white;
+}
+
+.dark .topbar{
+background:#2a2a2a;
+}
+
+.dark input{
+background:#333;
+color:white;
+}
+
+.dark .engine-select button,
+.dark .theme-btn button{
+background:#333;
+color:white;
+border:1px solid #555;
+}
+
+/* LITE LIQUID GLASS */
+
+.topbar,
+.search-box input,
+.search-box button,
+.engine-select button,
+.theme-btn button{
+
+background: rgba(255,255,255,0.6);
+border: 1px solid rgba(0,0,0,0.15);
+
+}
+
+/* Кнопки обоев */
+
+.wall-btns{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:10px;
+}
+
+.wall-btns button{
+padding:8px 12px;
+border:none;
+border-radius:8px;
+}
+
+/* Стиль по умолчанию кнопка */
+
+.default-style{
+display:flex;
+justify-content:center;
+margin-top:10px;
+}
+
+.default-style button{
+padding:8px 12px;
+border:none;
+border-radius:8px;
+background: rgba(255,255,255,0.6);
+border:1px solid rgba(0,0,0,0.15);
+}
