@@ -9,6 +9,7 @@ let name = "Google";
 
 if(e == "yandex") name = "Yandex";
 if(e == "duck") name = "DuckDuckGo";
+if(e == "Perplexity") name = "Perplexity";
 
 document.getElementById("currentEngine")
 .innerText = name;
@@ -34,6 +35,11 @@ window.location.href =
 if(engine == "duck"){
 window.location.href =
 "https://duckduckgo.com/?q=" + q;
+}
+
+if(engine == "Perplexity"){
+window.location.href =
+"https://www.perplexity.ai/?q=" + q;
 }
 
 }
